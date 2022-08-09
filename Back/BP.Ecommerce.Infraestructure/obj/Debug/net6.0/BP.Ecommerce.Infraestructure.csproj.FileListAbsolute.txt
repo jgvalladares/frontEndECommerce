@@ -1,0 +1,17 @@
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.deps.json
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.runtimeconfig.json
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Domain.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\bin\Debug\net6.0\BP.Ecommerce.Domain.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.AssemblyInfo.cs
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.csproj.CopyComplete
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\refint\BP.Ecommerce.Infraestructure.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\BP.Ecommerce.Infraestructure.genruntimeconfig.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Infraestructure\obj\Debug\net6.0\ref\BP.Ecommerce.Infraestructure.dll

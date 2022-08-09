@@ -1,0 +1,12 @@
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\bin\Debug\net6.0\BP.Ecommerce.Domain.deps.json
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\bin\Debug\net6.0\BP.Ecommerce.Domain.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\bin\Debug\net6.0\BP.Ecommerce.Domain.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\refint\BP.Ecommerce.Domain.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\BP.Ecommerce.Domain.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Domain\obj\Debug\net6.0\ref\BP.Ecommerce.Domain.dll

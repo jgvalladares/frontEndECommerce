@@ -1,0 +1,17 @@
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Application.deps.json
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Application.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Application.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Domain.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Infraestructure.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\bin\Debug\net6.0\BP.Ecommerce.Domain.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.AssemblyInfo.cs
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.csproj.CopyComplete
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\refint\BP.Ecommerce.Application.dll
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\BP.Ecommerce.Application.pdb
+C:\Users\Gaby\Desktop\backEnd\byron backend\EcommerceFinal\BP.Ecommerce.Application\obj\Debug\net6.0\ref\BP.Ecommerce.Application.dll
