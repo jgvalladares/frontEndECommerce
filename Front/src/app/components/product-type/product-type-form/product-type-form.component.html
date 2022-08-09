@@ -1,0 +1,23 @@
+<div class="contenedor">
+    <img src="../../../../assets/ProductType.jpg" class="img-fluid" width="100%" style="opacity:10%" alt="Responsive image">
+    <div class="container centrado">
+      <h1>FORMULARIO DE TIPOS DE PRODUCTO</h1>
+    <hr>
+    <form class="ProductType-form" [formGroup]="formGroupProductType" *ngIf="formGroupProductType" (ngSubmit)="onSubmit($event)"
+        #formProductType="ngForm">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre<i *ngIf="nameField!.valid" class="fa-solid fa-circle-check"></i></label>
+        <br>
+        <input id="name"style="text-transform:uppercase;" value="" oninput="javascript:this.value=this.value.toUpperCase();" class="form-control" type="text" formControlName="name" placeholder="Nombre" >
+        <br>
+        <small id="emailHelp" class="form-text text-muted">Coloque el nombre en mayúsculas.</small>
+      </div>
+    <br>
+    <hr>
+    <div style="text-align: end;">
+       <button type="submit" class="btn btn-warning">Guardar</button>
+    </div>
+     
+    </form>
+    </div>
+    </div>

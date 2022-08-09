@@ -1,0 +1,22 @@
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4"  *ngIf="products.length > 0">
+        <div class="col" *ngFor="let product of products"  [routerLink]="['/product',product.id]">
+          <div class="card h-100">
+            <img src="{{product.imageUrl}}" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">{{product.name}}</h5>
+              <hr>
+              <p class="card-text">
+                {{product.description}}
+              </p>
+              <hr>
+              <span class="product-btn" *ngIf="product.stock > 0 else agotado">${{product.price}}</span>
+            <ng-template #agotado>
+                <hr>
+            <span class="product-btn">Agotado</span>
+            </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>

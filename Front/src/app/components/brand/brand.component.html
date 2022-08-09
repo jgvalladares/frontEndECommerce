@@ -1,0 +1,29 @@
+
+<div class="container">
+    <div style="text-align: end;">
+         <button  type="button" class="btn btn-success" (click)="openModalWithComponent()">Nuevo</button>
+    </div>
+   
+    <table class="table-responsive table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col"># Código</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="brands.length > 0">
+            <tr *ngFor="let brand of brands">
+                <th scope="row">{{brand.id}}</th>
+                <td>{{brand.name}}</td>
+                <td><button class="button-table btn btn-outline-info" [routerLink]="['/brand/edit/',brand.id]"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                </td>
+                <td><button class="button-table btn btn-outline-danger" (click)="deleteBrand(brand.id!)"><i
+                            class="fa fa-solid fa-trash"  aria-hidden="true" ></i></button></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>

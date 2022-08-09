@@ -1,0 +1,99 @@
+.cart-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-title{
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+.cart-products{
+    width: 40%;
+}
+.order-product{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.523);
+    border-radius: 5px;
+}
+.order-detail{
+    width: 60%;
+    margin-left: 10px;
+}
+.order-img{
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+.order-pay{
+    width: max-content;
+    margin: auto;
+    background-color: gold !important;
+    padding:7vh;
+    color: black;
+    border-radius: 20px;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+}
+.table-pay{
+    margin: auto;
+}
+.table-item{
+    text-align: right;
+}
+.product-code span{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.buttons-details{
+    width: max-content;
+    margin: auto;
+}
+
+
+.btn-remove-product{
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.btn-remove-product:hover{
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.field-obligatorio{
+    color: red;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.btn-show-product{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+.btn-info{
+    background-color: #0F265C;
+    color:white;
+    padding: 12px 25px;
+    font-family: 'Prelo',sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0;
+}
+.btn-info:hover{
+    background-color: white;
+    color:#0F265C;
+}

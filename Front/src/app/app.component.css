@@ -1,0 +1,10 @@
+.container-position {
+    height: auto;
+    width: 100%;
+    position: relative;
+   }
+   
+   .footer {
+    bottom: 0;
+    width: 100%;
+   }

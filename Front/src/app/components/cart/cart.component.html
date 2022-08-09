@@ -1,0 +1,87 @@
+<div class="cart-flex container">
+    <div class="cart-products" *ngIf="order != null else noProducts">
+        <h1 class="cart-title">Carrito de compras</h1>
+        <p class="product-code"><span> Orden: </span>{{order.id}}</p>
+        <hr>
+        <div class="order-product" *ngFor="let product of order.orderProducts">
+            <img class="order-img" src="{{product.imageUrl}}">
+            <div class="order-detail">
+                <h3 class="cart-title">{{product.product}}</h3>
+                <a class="btn-show-product" [routerLink]="['/product',product.productId]">Ver Información...</a>
+                <p><b>Precio:</b> ${{product.price}}</p>
+                <hr>
+                <span>Cantidad<b>
+                        <select class="input-quantity form-control" name="quantity"
+                            (change)="updateQuantity(product,quantitySelected.value)" #quantitySelected>
+                            <option *ngFor="let quantity of product.stockArray" value="{{quantity}}"
+                                [defaultSelected]="product.productQuantity == quantity">{{quantity}}</option>
+                        </select> <br>
+                        <hr>
+                    </b> Total: </span> ${{product.total}}
+                <div>
+                    <button class="btn-remove-product" (click)="removeProduct(product)"><i class="fa fa-trash"
+                            aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-pay" *ngIf="order != null">
+        <div>
+        <table class="table-pay">
+            <tr>
+                <td class="table-item"><b>Método de entrega: </b>
+                </td>
+                <td>
+                    <select name="deliveryMethod" id="deliveryMethod" class="deliveryMethod form-control"
+                        [(ngModel)]="deliveryMethod">
+                        <option value="" [defaultSelected]="true">Seleccione...</option>
+                        <option *ngFor="let deliveryMethod of deliveryMethods" value="{{deliveryMethod.id}}">
+                            ${{deliveryMethod.priceByKm}} {{deliveryMethod.name}}</option>
+                    </select>
+                </td>
+               
+            </tr>
+            <hr>
+            <tr>
+                <td class="table-item"><b>Subtotal: </b></td>
+                <td> ${{order.subtotal}}</td>
+            </tr>
+
+            <tr>
+                <td class="table-item"><b>Iva 12%: </b></td>
+                <td> ${{order.iva}}</td>
+            </tr>
+            <hr>
+            <tr>
+                <td class="table-item"><b>Total: </b></td>
+                <td> ${{order.totalPrice}}</td>
+            </tr>
+        </table>
+    </div>
+        <div>
+            <hr>
+            <div class="buttons-details" *ngIf="order.state == 'Pendiente'">
+                <button class="btn btn-info" (click)="payOrder()">Confirmar <i class="fa fa-check" style="color:green"
+                        aria-hidden="true"></i></button>
+                <br>
+                <br>
+                <button class="btn btn-info" (click)="cancelOrder()">Cancelar <i class="fa fa-close"
+                        style="color:red"></i></button>
+                <br>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #noProducts>
+    <div class="jumbotron">
+        <h1 class="display-4">No has añadido productos a tu carrito.</h1>
+        <p class="lead">Añade productos a tu carrito de compras.</p>
+        <hr class="my-4">
+        <p>Visita nuestra página de productos.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" routerLink="/products" role="button">Productos</a>
+        </p>
+    </div>
+</ng-template>

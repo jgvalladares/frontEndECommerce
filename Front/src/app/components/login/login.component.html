@@ -1,0 +1,69 @@
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login-ECommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <div class="login-area">
+            <div class="login-header">
+                <img src="https://desinv.com/wp-content/uploads/2021/06/Desarrollo-E-Commerce.png" width="70px"><h1>E-commerce Gaby</h1>
+
+            </div>
+            <div class="login-wrapper">
+
+                <div class="login-box is-left">
+                    <div class="form-wrapper">
+                        <h3> Iniciar Sesión </h3>
+                        <p> ECommerce </p>
+                        <form [formGroup]="formGroupLogin" (ngSubmit)="onSubmit($event)" #loginForm="ngForm">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" id="inputUsuario" name="username" formControlName="userName"
+                                    required="required">
+                                <span class="login-alert" id="alertUsuario"
+                                    *ngIf="userNameField?.invalid && (userNameField?.touched || loginForm.submitted)">Requerido</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="username">Password</label>
+                                <input type="password" formControlName="password" placeholder="Ingresa la contraseña"
+                                    autocomplete="current-password" id="inputContrasena" required="required">
+                                <span class="login-alert" id="alertContrasena"
+                                    *ngIf="passwordField?.invalid && (passwordField?.touched || loginForm.submitted)">Requerido</span>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label  for="inputRol">Tipo de usuario</label>
+                                <select
+                                  class="form-control"
+                                  name="inputRol"
+                                  id="inputRol"
+                                  formControlName="rol"
+                                  placeholder="Seleccione..."
+                                >
+                                  <option value="user">User</option>
+                                  <option value="admin">Admin</option>
+                                </select>
+                              </div>
+
+                         
+
+                            <div class="form-group">
+                                <button type="submit">Log In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="login-box is-right"></div>
+            </div>
+
+        </div>
+        <div>
+            <!-- partial -->

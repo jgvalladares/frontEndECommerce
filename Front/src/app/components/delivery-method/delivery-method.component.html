@@ -1,0 +1,29 @@
+
+<div class="container">
+    <div style="text-align: end;">
+         <button  type="button" class="btn btn-success" (click)="openModalWithComponent()">Nuevo</button>
+    </div>
+   
+    <table class="table-responsive table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col"># Código</th>
+                <th scope="col">Método de entrega</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="DeliveryMethods.length > 0">
+            <tr *ngFor="let DeliveryMethod of DeliveryMethods">
+                <th scope="row">{{DeliveryMethod.id}}</th>
+                <td>{{DeliveryMethod.name}}</td>
+                <td><button class="button-table btn btn-outline-info" [routerLink]="['/DeliveryMethod/edit/',DeliveryMethod.id]"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                </td>
+                <td><button class="button-table btn btn-outline-danger" (click)="deleteDeliveryMethod(DeliveryMethod.id!)"><i
+                            class="fa fa-solid fa-trash"  aria-hidden="true" ></i></button></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>

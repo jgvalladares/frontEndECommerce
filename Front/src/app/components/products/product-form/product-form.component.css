@@ -1,0 +1,22 @@
+button{
+    background-color:gold;
+    color:black;
+}
+button:hover{
+    background-color:blue;
+    color:white;
+}
+.contenedor{
+    position: inherit;
+    display: flex;
+    text-align: center;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
